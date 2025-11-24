@@ -2,152 +2,170 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Title</title>
+        <title>Drumbeat - P2</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="icon" type="image/png" href="img_drumbeat/drumbeat_icono.png">
     </head>
     <body>
-    <header class="site-header">
-        <div class="container header-inner">
-            <div class="logo">
-                <img src="img_drumbeat/drumbeat_logo.png" alt="Logotipo Drumbeat">
-                <div class="brand">
-                    <h1>mozilla <span class="brand-strong">drumbeat</span></h1>
+        <header class="site-header">
+            <div class="container header-inner">
+                <div class="logo">
+                    <img src="img_drumbeat/drumbeat_logo.png" alt="Logotipo Drumbeat">
                 </div>
+
+                <nav class="main-nav" aria-label="Navegación principal">
+                    <ul>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">projects</a></li>
+                        <li><a href="#">people</a></li>
+                        <li><a href="#">festival</a></li>
+                        <li><a href="#" class="btn-register">register</a></li>
+                    </ul>
+                </nav>
             </div>
-
-            <nav class="main-nav" aria-label="Navegación principal">
-                <ul>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">projects</a></li>
-                    <li><a href="#">people</a></li>
-                    <li><a href="#">festival</a></li>
-                    <li><a href="#" class="btn-register">register</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <main class="container page">
-        <div class="grid">
-            <!-- Main content -->
-            <section class="content" id="program">
+            <section class="header-title container">
                 <h2 class="titulo">Drumbeat Learning, Freedom and the Web Festival</h2>
-
-                <p class="lead">
-                    Imagina un festival con muchas carpas diferentes: cada una con su foco —talleres, aulas, pruebas y demos—.
-                    La idea es aprender haciendo, compartir y crear recursos abiertos para la web.
-                </p>
-
-                <article class="intro">
-                    <h3>Program</h3>
-                    <p>
-                        El festival se organiza en distintos espacios temáticos donde se pueden dar clases, montar demos y probar ideas.
-                        Cada espacio ofrece actividades distintas: desde badges hasta hackerspaces y un escenario principal.
-                    </p>
-                </article>
-
-                <h4 class="section-title">Festival Spaces</h4>
-
-                <div class="cards">
-                    <div class="card card-pink">
-                        <h5>Badge lab</h5>
-                        <p>Test, criticar y mejorar insignias para reconocer el aprendizaje informal.</p>
-                    </div>
-
-                    <div class="card card-green">
-                        <h5>Webcraft toolshed</h5>
-                        <p>Testear y mejorar cursos de desarrollo web basados en estándares.</p>
-                    </div>
-
-                    <div class="card card-yellow">
-                        <h5>Peer-learning fishbowl</h5>
-                        <p>Feedback entre pares para cursos en desarrollo y diseño de nuevos cursos.</p>
-                    </div>
-
-                    <div class="card card-blue">
-                        <h5>Local learning incubator</h5>
-                        <p>Ayudar a bibliotecas y comunidades a crear contenido educativo abierto.</p>
-                    </div>
-
-                    <div class="card card-pink">
-                        <h5>Open content studio</h5>
-                        <p>Hackear libros de texto abiertos y construir catálogos de recursos.</p>
-                    </div>
-
-                    <div class="card card-green">
-                        <h5>Hackerspace playground</h5>
-                        <p>Proyectos con Processing, Arduino, MakerBot y otros juguetes maker.</p>
-                    </div>
-
-                    <div class="card card-yellow">
-                        <h5>Wikipedia lounge</h5>
-                        <p>Fusiones entre Wikipedia y proyectos educativos.</p>
-                    </div>
-
-                    <div class="card card-blue">
-                        <h5>Open source classroom</h5>
-                        <p>Convertir proyectos open source en recursos didácticos.</p>
-                    </div>
-
-                    <div class="card card-pink">
-                        <h5>Video + learning gallery</h5>
-                        <p>Crear, traducir y compartir videos con propósito educativo.</p>
-                    </div>
-
-                    <div class="card card-green">
-                        <h5>Main stage</h5>
-                        <p>Demos y pequeñas conferencias con ideas destacadas del festival.</p>
-                    </div>
-                </div>
-
             </section>
+            <section class="container">
+                <div class="subnav">
+                    <div class="subnav-links">
+                        <a href="#">Festival</a>
+                        <a href="#" class="active">Program</a>
+                        <a href="#">Participants</a>
+                        <a href="#">Registration</a>
+                        <a href="#">Logistics</a>
+                        <a href="#">Get involved</a>
+                        <a href="#">Wiki</a>
+                    </div>
 
-            <!-- Sidebar -->
-            <aside class="sidebar" aria-labelledby="sidebar-title">
-                <div class="register-box">
-                    <h3 id="sidebar-title">Register</h3>
-                    <p>Únete a tres días de creación, enseñanza y hacking educativo.</p>
-                    <a href="#" class="cta">Regístrate ahora</a>
-                    <p class="small">o encuentra cómo colaborar en el proyecto.</p>
+                    <div class="language">
+                        <span style="font-size: 12px">language:</span>
+                        <a href="#" class="active">en</a>
+                        <a href="#">ca</a>
+                        <a href="#">es</a>
+                    </div>
                 </div>
+            </section>
+        </header>
 
-                <div class="who-comes">
-                    <h4>Who should come?</h4>
-                    <ul>
-                        <li>Autores de libros abiertos y remixers</li>
-                        <li>Profesores y desarrolladores web</li>
-                        <li>Hackerspaces y comunidades creativas</li>
-                        <li>Bibliotecarios y educadores</li>
-                        <li>Startups de educación abierta</li>
-                    </ul>
-                </div>
+        <main class="container page">
+            <div class="grid">
+                <!-- Main content -->
+                <section class="content" id="program">
+                    <p class="lead">
+                        Imagina un festival con muchas carpas diferentes: cada una con su foco —talleres, aulas, pruebas y demos—.
+                        La idea es aprender haciendo, compartir y crear recursos abiertos para la web.
+                    </p>
 
-                <div class="info-box">
-                    <h4>What can you learn?</h4>
-                    <ul>
-                        <li>Organizar cursos peer-to-peer</li>
-                        <li>Crear mochilas digitales de credenciales</li>
-                        <li>Integrar Wikipedia en proyectos</li>
-                        <li>Compartir buenas prácticas open web</li>
-                    </ul>
-                </div>
-            </aside>
-        </div>
-    </main>
+                    <article class="intro">
+                        <h3>Program</h3>
+                        <p>
+                            El festival se organiza en distintos espacios temáticos donde se pueden dar clases, montar demos y probar ideas.
+                            Cada espacio ofrece actividades distintas: desde badges hasta hackerspaces y un escenario principal.
+                        </p>
+                    </article>
 
-    <footer class="site-footer">
-        <div class="container footer-inner">
-            <div class="legal">
-                <p>© 2010 Drumbeat — Contenido con licencia Creative Commons.</p>
+                    <h4 class="section-title">Festival Spaces</h4>
+
+                    <div class="cards">
+                        <div class="card card-pink">
+                            <h5>Badge lab</h5>
+                            <p>Test, criticar y mejorar insignias para reconocer el aprendizaje informal.</p>
+                        </div>
+
+                        <div class="card card-green">
+                            <h5>Webcraft toolshed</h5>
+                            <p>Testear y mejorar cursos de desarrollo web basados en estándares.</p>
+                        </div>
+
+                        <div class="card card-yellow">
+                            <h5>Peer-learning fishbowl</h5>
+                            <p>Feedback entre pares para cursos en desarrollo y diseño de nuevos cursos.</p>
+                        </div>
+
+                        <div class="card card-blue">
+                            <h5>Local learning incubator</h5>
+                            <p>Ayudar a bibliotecas y comunidades a crear contenido educativo abierto.</p>
+                        </div>
+
+                        <div class="card card-pink">
+                            <h5>Open content studio</h5>
+                            <p>Hackear libros de texto abiertos y construir catálogos de recursos.</p>
+                        </div>
+
+                        <div class="card card-green">
+                            <h5>Hackerspace playground</h5>
+                            <p>Proyectos con Processing, Arduino, MakerBot y otros juguetes maker.</p>
+                        </div>
+
+                        <div class="card card-yellow">
+                            <h5>Wikipedia lounge</h5>
+                            <p>Fusiones entre Wikipedia y proyectos educativos.</p>
+                        </div>
+
+                        <div class="card card-blue">
+                            <h5>Open source classroom</h5>
+                            <p>Convertir proyectos open source en recursos didácticos.</p>
+                        </div>
+
+                        <div class="card card-pink">
+                            <h5>Video + learning gallery</h5>
+                            <p>Crear, traducir y compartir videos con propósito educativo.</p>
+                        </div>
+
+                        <div class="card card-green">
+                            <h5>Main stage</h5>
+                            <p>Demos y pequeñas conferencias con ideas destacadas del festival.</p>
+                        </div>
+                    </div>
+
+                </section>
+
+                <!-- Sidebar -->
+                <aside class="sidebar" aria-labelledby="sidebar-title">
+                    <div class="register-box">
+                        <h3 id="sidebar-title">Register</h3>
+                        <p>Únete a tres días de creación, enseñanza y hacking educativo.</p>
+                        <a href="#" class="cta">Regístrate ahora</a>
+                        <p class="small">o encuentra cómo colaborar en el proyecto.</p>
+                    </div>
+
+                    <div class="who-comes">
+                        <h4>Who should come?</h4>
+                        <ul>
+                            <li>Autores de libros abiertos y remixers</li>
+                            <li>Profesores y desarrolladores web</li>
+                            <li>Hackerspaces y comunidades creativas</li>
+                            <li>Bibliotecarios y educadores</li>
+                            <li>Startups de educación abierta</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-box">
+                        <h4>What can you learn?</h4>
+                        <ul>
+                            <li>Organizar cursos peer-to-peer</li>
+                            <li>Crear mochilas digitales de credenciales</li>
+                            <li>Integrar Wikipedia en proyectos</li>
+                            <li>Compartir buenas prácticas open web</li>
+                        </ul>
+                    </div>
+                </aside>
             </div>
-            <div class="social">
-                <a href="#" aria-label="Drumbeat blog">Blog</a>
-                <a href="#" aria-label="Twitter">Twitter</a>
-                <a href="#" aria-label="Facebook">Facebook</a>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container footer-inner">
+                <div class="legal">
+                    <p>© 2010 Drumbeat — Contenido con licencia Creative Commons.</p>
+                </div>
+                <div class="social">
+                    <a href="#" aria-label="Drumbeat blog">Blog</a>
+                    <a href="#" aria-label="Twitter">Twitter</a>
+                    <a href="#" aria-label="Facebook">Facebook</a>
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
     </body>
 </html>
