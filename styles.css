@@ -554,3 +554,17 @@ html, body {
         display: none;
     }
 }
+
+@media (max-width: 520px) {
+    html {
+        font-size: 15px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    }
+
+    .cta {
+        padding: 0.5rem 0.65rem;
+    }
+}
