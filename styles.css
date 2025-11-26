@@ -233,9 +233,11 @@ html, body {
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 320px;
+    grid-template-columns: 1fr 420px;
     gap: 2rem;
     align-items: start;
+    width: fit-content;
+    box-sizing: border-box;
 }
 
 .intro img {
@@ -260,7 +262,7 @@ html, body {
 
 .intro p {
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 16px;
+    font-size: 13pt;
 }
 
 /* Main contenido */
@@ -272,44 +274,55 @@ html, body {
 
 /* Tarjetas */
 .cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 15px;
+    display: flex;
+    gap: 33px;
     margin-top: 3px;
+    width: 83%;
+    max-width: 701px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
 }
 
 .card {
-    padding: 12px;
+    width: 292px;
+    height: 188px;
+    padding: 19px;
     border-radius: 3px;
-    box-shadow: 0 8px 18px rgba(34,60,80,0.06);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.75);
     min-height: 110px;
 }
 
 .card h5 {
     margin: 0 0 3px;
-    font-size: 1rem;
+    font-size: 16pt;
 }
 
 .card p {
+    font-family: Georgia, "Times New Roman", Times, serif;
     margin: 0;
     color: #37474f;
-    font-size: 0.95rem;
+    font-size: 14pt;
 }
 
 .card-pink {
-    background: #ffd6dd;
+    box-shadow: inset 0 8px 18px rgb(231, 230, 230);
+    background: #fdd7d2;
 }
 
 .card-green {
-    background: #e6f9ea;
+    box-shadow: inset 0 8px 18px rgb(231, 230, 230);
+    background: #dbeda9;
 }
 
 .card-yellow {
-    background: #fff7d6;
+    box-shadow: inset 0 8px 18px rgb(231, 230, 230);
+    background: #fcf9c0;
 }
 
 .card-blue {
-    background: #e7f6ff;
+    box-shadow: inset 0 8px 18px rgb(231, 230, 230);
+    background: #98d9e5;
 }
 
 .card1 {
@@ -369,6 +382,29 @@ html, body {
     color: #0c3e4d;
 }
 
+.info-section .wiaa {
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+}
+
+.info-section .wiaa p {
+    color: #848484;
+    font-size: 14pt;
+    font-style: italic;
+    font-weight: 500;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    line-height: 1.2;
+}
+
+.what-is-all-about {
+    color: #16494f;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .promise-list {
     list-style: none;
     display: block;
@@ -423,7 +459,7 @@ html, body {
 .promise-item p {
     margin: 0;
     color: #333;
-    font-size: 0.9rem;
+    font-size: 12pt;
 }
 
 .promise-item p strong {
@@ -458,7 +494,7 @@ html, body {
     padding-left: 25px;
     position: relative;
     margin-bottom: 0.5rem;
-    font-size: 0.95rem;
+    font-size: 14pt;
     line-height: 1.3;
     font-weight: 700;
     color: #333;
@@ -478,7 +514,7 @@ html, body {
 }
 .small-invite {
     margin-top: 1rem;
-    font-size: 0.85rem;
+    font-size: 13pt;
     line-height: 1.4;
 }
 
@@ -498,6 +534,7 @@ html, body {
 .button-social-media button {
     width: 60%;
     display: flex;
+    font-size: 12pt;
     align-items: center;
     border-radius: 5px;
     border: none;
