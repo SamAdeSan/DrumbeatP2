@@ -6,7 +6,7 @@
 html, body {
     height: 100%;
     margin: 5px 0;
-    font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: #213547;
     background: #ffffff;
     line-height: 1.45;
@@ -78,9 +78,10 @@ html, body {
 .titulo {
     color: #147d9c;
     margin: 0 0 1px;
-    font-weight: 700;
     font-size: 44px;
+    font-weight: bold;
     letter-spacing: -0.05cm;
+    padding: 10px;
 }
 /* Div de accesos directos e idioma */
 
@@ -233,7 +234,7 @@ html, body {
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 420px;
+    grid-template-columns: 1fr 360px;
     gap: 2rem;
     align-items: start;
     width: fit-content;
@@ -254,15 +255,20 @@ html, body {
 }
 
 .intro h4 {
-    color: #16494f;
+    color: #00737e;
     margin: 0;
     font-weight: bold;
+    padding-top: 10px;
     font-size: 20px;
 }
 
 .intro p {
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 13pt;
+    font-size: 11pt;
+}
+
+.intro p a {
+    color: #00737e;
 }
 
 /* Main contenido */
@@ -277,16 +283,14 @@ html, body {
     display: flex;
     gap: 33px;
     margin-top: 3px;
-    width: 83%;
-    max-width: 701px;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    max-width: 1000px;
     align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .card {
-    width: 292px;
-    height: 188px;
+    width: 266px;
     padding: 19px;
     border-radius: 3px;
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.75);
@@ -341,10 +345,6 @@ html, body {
     transform: rotate(-4deg);
 }
 
-.card:hover {
-    box-shadow: 0 14px 30px rgba(34, 60, 80, 0.12);
-}
-
 /* Sidebar */
 .sidebar {
     position: relative;
@@ -389,12 +389,13 @@ html, body {
 }
 
 .info-section .wiaa p {
-    color: #848484;
+    color: #888d95;
     font-size: 14pt;
     font-style: italic;
     font-weight: 500;
     font-family: Georgia, "Times New Roman", Times, serif;
     line-height: 1.2;
+    letter-spacing: -0.01cm;
 }
 
 .what-is-all-about {
