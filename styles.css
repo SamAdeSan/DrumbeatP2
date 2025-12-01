@@ -6,7 +6,7 @@
 html, body {
     height: 100%;
     margin: 5px 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Segoe UI Variable", "Segoe UI", system-ui, ui-sans-serif, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     color: #213547;
     background: #ffffff;
     line-height: 1.45;
